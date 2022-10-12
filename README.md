@@ -24,6 +24,17 @@
 
 ## Description
 
+Packages and configuration
+
+```bash
+$ nest g module auth
+$ nest g service --no-spec
+$ nest g service auth --no-spec
+$ npm install --save @nestjs/jwt passport-jwt
+$ npm install --save-dev @types/passport-jwt
+$ npm install -S @nestjs/passport
+```
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
